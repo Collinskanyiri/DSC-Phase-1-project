@@ -98,6 +98,7 @@ worldwide_gross - worldwide returns of the production.
     - Droping unnecessary columns
 
 ## 5.Exploratory Analysis
+![Average Rating of Different Movie Genres according to IMDB](https://github.com/Collinskanyiri/DSC-Phase-1-project/assets/86715443/809266e7-1d87-4ee5-9431-7e37cea3c22f)
 
 ## 6. Conclusion
 The analysis done has been able to provide answers that can lead to actionable recommendations. 
