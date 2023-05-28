@@ -13,7 +13,7 @@ Microsoft corporation, is looking to set up a movie studio to create original vi
 From the datasets provided, answers to the following questions can be sought:
 
 1. What are the most popular genres?
-2. Movie returns in both Domestic and Foreign markets.
+2. Movie returns in both Domestic and Worldwide markets.
 3. What are the most popular film ratings?
 
 ### 2.2 Objectives
@@ -98,17 +98,32 @@ worldwide_gross - worldwide returns of the production.
     - Droping unnecessary columns
 
 ## 5.Exploratory Analysis
- #### 1. What are the highly rated  genres?
-Plot a bar graph with genres and averagerating as the variables
+### Question 1. What are the most popular genres?
+# Plot a bar graph with genres and averagerating as the variables
+
 plt.data = imdb
 x = imdb['genre']
-y = imdb['averagerating']
+y = imdb['averagerating'] 
 
-<img
-  src="img/Average Rating of Different Movie Genres according to IMDB.png"
-  alt="Alt text"
-  title="Optional title"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+![Average Rating of Different Movie Genres according to IMDB](https://github.com/Collinskanyiri/DSC-Phase-1-project/assets/86715443/809266e7-1d87-4ee5-9431-7e37cea3c22f)
+
+
+### Question 2. What are the most popular film ratings?
+# Plot a bar graph with ratings and Number of Movies as the variables
+
+title = 'Film Ratings'
+y = 'rt_ratings.fresh count'
+x = 'Rating'
+
+![Film Ratings](https://github.com/Collinskanyiri/DSC-Phase-1-project/blob/master/img/Film%20Ratings.png?raw=true)
+### Question 3. Movie returns in both Domestic and Worldwide markets.
+# plotting a scatter plot
+
+title = 'Relationship between Domestic and Worldwide Gross Earnings'
+y = 'tn_movie_budgets_top.worldwide_gross'
+x = 'tn_movie_budgets_top.domestic_gross'
+![Relationship between Domestic and Worldwide Gross Earnings](https://github.com/Collinskanyiri/DSC-Phase-1-project/blob/master/img/Relationship%20between%20Domestic%20and%20Worldwide%20Gross%20Earnings.png?raw=true)
+
 
 ## 6. Conclusion
 The analysis done has been able to provide answers that can lead to actionable recommendations. 
