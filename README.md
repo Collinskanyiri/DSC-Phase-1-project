@@ -102,7 +102,9 @@ Their features are as follows:
 Plot a bar graph with genres and averagerating as the variables
 
 plt.data = imdb
+
 x = imdb['genre']
+
 y = imdb['averagerating'] 
 
 ![Average Rating of Different Movie Genres according to IMDB](https://github.com/Collinskanyiri/DSC-Phase-1-project/assets/86715443/809266e7-1d87-4ee5-9431-7e37cea3c22f)
@@ -112,7 +114,9 @@ y = imdb['averagerating']
 Plot a bar graph with ratings and Number of Movies as the variables
 
 title = 'Film Ratings'
+
 y = 'rt_ratings.fresh count'
+
 x = 'Rating'
 
 ![Film Ratings](https://github.com/Collinskanyiri/DSC-Phase-1-project/blob/master/img/Film%20Ratings.png?raw=true)
@@ -120,7 +124,9 @@ x = 'Rating'
 plotting a scatter plot
 
 title = 'Relationship between Domestic and Worldwide Gross Earnings'
+
 y = 'tn_movie_budgets_top.worldwide_gross'
+
 x = 'tn_movie_budgets_top.domestic_gross'
 
 ![Relationship between Domestic and Worldwide Gross Earnings](https://github.com/Collinskanyiri/DSC-Phase-1-project/blob/master/img/Relationship%20between%20Domestic%20and%20Worldwide%20Gross%20Earnings.png?raw=true)
