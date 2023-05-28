@@ -99,7 +99,7 @@ worldwide_gross - worldwide returns of the production.
 
 ## 5.Exploratory Analysis
 ### Question 1. What are the most popular genres?
-# Plot a bar graph with genres and averagerating as the variables
+Plot a bar graph with genres and averagerating as the variables
 
 plt.data = imdb
 x = imdb['genre']
@@ -109,7 +109,7 @@ y = imdb['averagerating']
 
 
 ### Question 2. What are the most popular film ratings?
-# Plot a bar graph with ratings and Number of Movies as the variables
+Plot a bar graph with ratings and Number of Movies as the variables
 
 title = 'Film Ratings'
 y = 'rt_ratings.fresh count'
@@ -117,11 +117,12 @@ x = 'Rating'
 
 ![Film Ratings](https://github.com/Collinskanyiri/DSC-Phase-1-project/blob/master/img/Film%20Ratings.png?raw=true)
 ### Question 3. Movie returns in both Domestic and Worldwide markets.
-# plotting a scatter plot
+plotting a scatter plot
 
 title = 'Relationship between Domestic and Worldwide Gross Earnings'
 y = 'tn_movie_budgets_top.worldwide_gross'
 x = 'tn_movie_budgets_top.domestic_gross'
+
 ![Relationship between Domestic and Worldwide Gross Earnings](https://github.com/Collinskanyiri/DSC-Phase-1-project/blob/master/img/Relationship%20between%20Domestic%20and%20Worldwide%20Gross%20Earnings.png?raw=true)
 
 
