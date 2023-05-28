@@ -53,11 +53,17 @@ Their features are as follows:
 1. id - Unique id for each movie.
 2. synopsis - A brief note on the premise of the movie.
 3. rating - rate of motion picture's suitability for certain audiences based on its content.
+
        R :- Restricted: Under 17 requires accompanying parent or adult guardian
+
        PG-13 :- Some material may be inappropriate for children under 13
+
        PG :- Some material may not be suitable for children
+
        G :- All ages admitted
+
        NR :- Not rated
+       
 4. genre - A movie's category based on the plot.
 5. director - The movie's director.
 6. writer - The movie's writer.
