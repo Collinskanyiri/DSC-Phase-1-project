@@ -33,60 +33,60 @@ The datasets include:
 Their features are as follows:
 
 #### 3.1. From Box Office Mojo
-title - Name of the movie.
-studio - The studio that produced it.
-domestic_gross - The amount of gross earnings from its mother country.
-foreign_gross - The amount of gross earnings from elsewhere around the world.
-year - The year it was released.
+1. title - Name of the movie.
+2. studio - The studio that produced it.
+3. domestic_gross - The amount of gross earnings from its mother country.
+4. foreign_gross - The amount of gross earnings from elsewhere around the world.
+5. year - The year it was released.
 
 #### 3.2. From IMDB Movies:
-genre_ids - id for each genre of the Movie.
-id - Unique id for each movie.
-original_language - The original language of film.
-popularity - The popularity of the movie in millions.
-release_date - The date the Movie was released.
-title - The average rating out of 10.
-vote_average - Average Number of votes to rate the movie out of 10.
-vote_count - Number of pepole who to rate the movie.
+1. genre_ids - id for each genre of the Movie.
+2. id - Unique id for each movie.
+3. original_language - The original language of film.
+4. popularity - The popularity of the movie in millions.
+5. release_date - The date the Movie was released.
+6. title - The average rating out of 10.
+7. vote_average - Average Number of votes to rate the movie out of 10.
+8. vote_count - Number of pepole who to rate the movie.
 
 #### 3.3. Rotten Tomatoes Movies Information:
-id - Unique id for each movie.
-synopsis - A brief note on the premise of the movie.
-rating - rate of motion picture's suitability for certain audiences based on its content.
-R :- Restricted: Under 17 requires accompanying parent or adult guardian
-PG-13 :- Some material may be inappropriate for children under 13
-PG :- Some material may not be suitable for children
-G :- All ages admitted
-NR :- Not rated
-genre - A movie's category based on the plot.
-director - The movie's director.
-writer - The movie's writer.
-theater_date - The date the movie was released in theaters.
-dvd_date - The date the movie was released in dvd format.
-currency - - currency used.
-Box office - The studio returns.
-runtime - The total length of the movie.
-studio - The studio involved in the movie production.
+1. id - Unique id for each movie.
+2. synopsis - A brief note on the premise of the movie.
+3. rating - rate of motion picture's suitability for certain audiences based on its content.
+       R :- Restricted: Under 17 requires accompanying parent or adult guardian
+       PG-13 :- Some material may be inappropriate for children under 13
+       PG :- Some material may not be suitable for children
+       G :- All ages admitted
+       NR :- Not rated
+4. genre - A movie's category based on the plot.
+5. director - The movie's director.
+6. writer - The movie's writer.
+7. theater_date - The date the movie was released in theaters.
+8. dvd_date - The date the movie was released in dvd format.
+9. currency - - currency used.
+10. Box office - The studio returns.
+11. runtime - The total length of the movie.
+12. studio - The studio involved in the movie production.
 
 #### 3.4. Rotten Tomatoes Review Information:
-review - A review on the movie by a user.
-rating - How a user rates the movie.
-fresh - Rotten Tomatoes rating system,[Flesh-they liked it, rotten- the did not like it]
-critic - Name of the person leaving the review.
-top_critic -
-publisher - The publisher of the review.
-date - The date the review was written.
+1. review - A review on the movie by a user.
+2. rating - How a user rates the movie.
+3. fresh - Rotten Tomatoes rating system,[Flesh-they liked it, rotten- the did not like it]
+4. critic - Name of the person leaving the review.
+5. top_critic -
+6. publisher - The publisher of the review.
+7. date - The date the review was written.
 
 #### 3.5. From The Numbers:
-id - Unique id for each movie.
-release_date - The date the Movie was released.
-movie - The movie name.
-production_budget - amount of money used in the movie production.
-domestic_gross - Dometic returns of the production.
-worldwide_gross - worldwide returns of the production.
+1. id - Unique id for each movie.
+2. release_date - The date the Movie was released.
+3. movie - The movie name.
+4. production_budget - amount of money used in the movie production.
+5. domestic_gross - Dometic returns of the production.
+6. worldwide_gross - worldwide returns of the production.
 
 ## 4. Data Preparation
-1. import the Libraries.
+1. import the Libraries
 2. Loading the Datasets
 3. Exploring the Dataframes
 4. Clean the data by dealing with:
@@ -134,6 +134,8 @@ From the findings, the most popular genres have been determined to be History an
 It has also been seen that a movie that does well domestically is likely to do well internationally. 
 
 In addition to that, R rated movies have been found to be most popular.
+
+
 ## 7. Recommendations
 The Microsoft Corporation should base their Production company to produce R-Rated, History and Documentary productions as they are the most popular and highest rated in the markets.
 The should market their product in both domestic and wolrdwide markets to archive maximum profits from a single production.
