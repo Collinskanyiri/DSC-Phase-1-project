@@ -1,4 +1,5 @@
 # Phase 1 Project - Microsoft Studios Movie Project
+#
 ## 1.Introduction
 The global film industry revenue is estimated to be $101.22 billion in 2021.The industry comprises the technological and commercial institutions of filmmaking, i.e., film production companies, film studios, cinematography, animation, film production, screenwriting, pre-production, post production, film festivals, distribution, and actors.
 
@@ -63,7 +64,7 @@ Their features are as follows:
        G :- All ages admitted
 
        NR :- Not rated
-       
+
 4. genre - A movie's category based on the plot.
 5. director - The movie's director.
 6. writer - The movie's writer.
