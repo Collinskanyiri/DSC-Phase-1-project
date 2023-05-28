@@ -98,6 +98,17 @@ worldwide_gross - worldwide returns of the production.
     - Droping unnecessary columns
 
 ## 5.Exploratory Analysis
+ #### 1. What are the highly rated  genres?
+Plot a bar graph with genres and averagerating as the variables
+plt.data = imdb
+x = imdb['genre']
+y = imdb['averagerating']
+
+<img
+  src="img/Average Rating of Different Movie Genres according to IMDB.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 ## 6. Conclusion
 The analysis done has been able to provide answers that can lead to actionable recommendations. 
