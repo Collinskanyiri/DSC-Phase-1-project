@@ -1,5 +1,7 @@
 # Phase 1 Project - Microsoft Studios Movie Project
 #
+goggle slides link https://docs.google.com/presentation/d/1PrZXAbTPbWAsMAeK3O8oOQkszWRBE5946Q-aibmPRpc/edit?usp=sharing
+#
 ## 1.Introduction
 The global film industry revenue is estimated to be $101.22 billion in 2021.The industry comprises the technological and commercial institutions of filmmaking, i.e., film production companies, film studios, cinematography, animation, film production, screenwriting, pre-production, post production, film festivals, distribution, and actors.
 
